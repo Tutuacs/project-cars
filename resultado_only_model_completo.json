@@ -1,0 +1,200 @@
+{
+  "IMP/VOLVO": {
+    "ilesos": 4,
+    "feridos_leves": 2,
+    "feridos_graves": 2,
+    "mortos": 2,
+    "totalValue": 1975000,
+    "countValues": 1,
+    "averageValue": 1975000
+  },
+  "NA/NA": {
+    "ilesos": 6,
+    "feridos_leves": 42,
+    "feridos_graves": 47,
+    "mortos": 41,
+    "totalValue": 7359996,
+    "countValues": 15,
+    "averageValue": 490666.4
+  },
+  "GM/S10": {
+    "ilesos": 1,
+    "feridos_leves": 0,
+    "feridos_graves": 2,
+    "mortos": 2,
+    "totalValue": 4560000,
+    "countValues": 6,
+    "averageValue": 760000
+  },
+  "FIAT/STILO": {
+    "ilesos": 3,
+    "feridos_leves": 0,
+    "feridos_graves": 0,
+    "mortos": 0,
+    "totalValue": 225000,
+    "countValues": 1,
+    "averageValue": 225000
+  },
+  "FORD/FIESTA 1.6": {
+    "ilesos": 3,
+    "feridos_leves": 3,
+    "feridos_graves": 3,
+    "mortos": 3,
+    "totalValue": 423000,
+    "countValues": 2,
+    "averageValue": 211500
+  },
+  "I/FORD FUSION": {
+    "ilesos": 9,
+    "feridos_leves": 12,
+    "feridos_graves": 6,
+    "mortos": 7,
+    "totalValue": 120000,
+    "countValues": 1,
+    "averageValue": 120000
+  },
+  "HONDA/150": {
+    "ilesos": 0,
+    "feridos_leves": 0,
+    "feridos_graves": 0,
+    "mortos": 1,
+    "totalValue": 240000,
+    "countValues": 2,
+    "averageValue": 120000
+  },
+  "I/MERCEDES": {
+    "ilesos": 1,
+    "feridos_leves": 1,
+    "feridos_graves": 1,
+    "mortos": 1,
+    "totalValue": 2925000,
+    "countValues": 2,
+    "averageValue": 1462500
+  },
+  "FORD/FIESTA": {
+    "ilesos": 32,
+    "feridos_leves": 22,
+    "feridos_graves": 20,
+    "mortos": 19,
+    "totalValue": 460000,
+    "countValues": 4,
+    "averageValue": 115000
+  },
+  "FORD/ECOSPORT": {
+    "ilesos": 2,
+    "feridos_leves": 3,
+    "feridos_graves": 1,
+    "mortos": 1,
+    "totalValue": 2490000,
+    "countValues": 3,
+    "averageValue": 830000
+  },
+  "I/CHEVROLET CRUZE LT": {
+    "ilesos": 1,
+    "feridos_leves": 1,
+    "feridos_graves": 1,
+    "mortos": 1,
+    "totalValue": 4520000,
+    "countValues": 9,
+    "averageValue": 502222.22222222225
+  },
+  "CHEVROLET/CLASSIC": {
+    "ilesos": 7,
+    "feridos_leves": 5,
+    "feridos_graves": 5,
+    "mortos": 5,
+    "totalValue": 315000,
+    "countValues": 2,
+    "averageValue": 157500
+  },
+  "IMP/TOYOTA": {
+    "ilesos": 2,
+    "feridos_leves": 2,
+    "feridos_graves": 2,
+    "mortos": 2,
+    "totalValue": 3300000,
+    "countValues": 2,
+    "averageValue": 1650000
+  },
+  "VW/PASSAT": {
+    "ilesos": 0,
+    "feridos_leves": 0,
+    "feridos_graves": 0,
+    "mortos": 0,
+    "totalValue": 480000,
+    "countValues": 1,
+    "averageValue": 480000
+  },
+  "IMP/NISSAN": {
+    "ilesos": 0,
+    "feridos_leves": 0,
+    "feridos_graves": 0,
+    "mortos": 0,
+    "totalValue": 650000,
+    "countValues": 1,
+    "averageValue": 650000
+  },
+  "FORD/KA": {
+    "ilesos": 6,
+    "feridos_leves": 6,
+    "feridos_graves": 6,
+    "mortos": 6,
+    "totalValue": 2150000,
+    "countValues": 5,
+    "averageValue": 430000
+  },
+  "VW/GOL": {
+    "ilesos": 0,
+    "feridos_leves": 0,
+    "feridos_graves": 0,
+    "mortos": 0,
+    "totalValue": 759999,
+    "countValues": 2,
+    "averageValue": 379999.5
+  },
+  "I/HYUNDAI ELANTRA": {
+    "ilesos": 1,
+    "feridos_leves": 1,
+    "feridos_graves": 0,
+    "mortos": 0,
+    "totalValue": 1275000,
+    "countValues": 2,
+    "averageValue": 637500
+  },
+  "FIAT/PUNTO 1.4": {
+    "ilesos": 0,
+    "feridos_leves": 4,
+    "feridos_graves": 0,
+    "mortos": 0,
+    "totalValue": 165000,
+    "countValues": 1,
+    "averageValue": 165000
+  },
+  "IMP/RENAULT": {
+    "ilesos": 2,
+    "feridos_leves": 2,
+    "feridos_graves": 2,
+    "mortos": 2,
+    "totalValue": 3926000,
+    "countValues": 8,
+    "averageValue": 490750
+  },
+  "IMP/FORD": {
+    "ilesos": 1,
+    "feridos_leves": 1,
+    "feridos_graves": 1,
+    "mortos": 1,
+    "totalValue": 2490000,
+    "countValues": 3,
+    "averageValue": 830000
+  },
+  "I/RENAULT LOGAN": {
+    "ilesos": 0,
+    "feridos_leves": 0,
+    "feridos_graves": 0,
+    "mortos": 0,
+    "totalValue": 179998,
+    "countValues": 2,
+    "averageValue": 89999
+  }
+}

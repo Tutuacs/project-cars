@@ -80,28 +80,27 @@ async function main() {
   await processarAcidentes('./acidentes2025.csv');
   const vendaMap = await processarVendas('./cars.csv');
 
-  // para cada marca/modelo de acidente
+  const mapaFiltrado = new Map<string, TotaisPorMarca>();
+
   for (const [rawMarca, totais] of mapaMarcas.entries()) {
-    // separa brand e model
     const [brandAcc, modelAcc] = rawMarca.split('/').map(s => s.trim().toUpperCase());
 
-    // tenta achar uma chave compatível em vendaMap
     for (const [carName, acc] of vendaMap.entries()) {
-      if (
-        (modelAcc && carName.includes(modelAcc)) || 
-        (brandAcc && carName.includes(brandAcc))
-      ) {
+      if (modelAcc && carName.includes(modelAcc)) {
         totais.totalValue   = acc.sum;
         totais.countValues  = acc.count;
         totais.averageValue = acc.count > 0 ? acc.sum / acc.count : 0;
-        break;  // achou correspondência, parte pro próximo
+
+        mapaFiltrado.set(rawMarca, totais); // Adiciona só se encontrar correspondência
+        break;
       }
     }
   }
 
-  const resultado = Object.fromEntries(mapaMarcas);
-  fs.writeFileSync('resultado_completo.json', JSON.stringify(resultado, null, 2), 'utf-8');
-  console.log('✔ resultado_completo.json gerado!');
+  const resultado = Object.fromEntries(mapaFiltrado);
+  fs.writeFileSync('resultado_only_model_completo.json', JSON.stringify(resultado, null, 2), 'utf-8');
+  console.log('✔ resultado_model_completo.json gerado!');
 }
+
 
 main().catch(console.error);
